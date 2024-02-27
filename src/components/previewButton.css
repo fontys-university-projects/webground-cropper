@@ -1,10 +1,10 @@
-.filepond--action-focalPoint-item.filepond--action-focalPoint-item {
+.filepond--action-preview-item.filepond--action-preview-item {
     width:2em;
     height:2em;
     padding:.1875em;
 
-    &[data-align*='left'] {
-        margin-left: -0.1875em;       
+    &[data-align*='right'] {
+        margin-right: -0.1875em;  
     }
     
     &[data-align*='bottom'] {
@@ -12,7 +12,7 @@
     }
 }
 
-.filepond--action-focalPoint-item-alt {
+.filepond--action-preview-item-alt {
     border: none;
     line-height: inherit;
     background: transparent;
